@@ -9,7 +9,7 @@ int main() {
 	printf("Ingresa el area de la ciudad\n");
 	scanf("%d", &city.area);
 
-	FILE *archivo = fopen("ciudad.dat", "wb");
+	FILE *archivo = fopen("ciudad.chupalo", "wb");
 	
 	fwrite(&city, sizeof(struct ciudad), 1, archivo);
 	fclose(archivo);
