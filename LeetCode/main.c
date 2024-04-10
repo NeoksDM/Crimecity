@@ -1,4 +1,7 @@
 #include "ejercicios.h"
 
-int main() { return 0; }
+int main() {
+ 	menu();      
+	return 0;
+}
 
