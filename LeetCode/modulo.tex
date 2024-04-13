@@ -9,5 +9,14 @@
 
 \section{Ejercicio 2769 de LeetCode}
 \paragraph{Encuentra el m\'aximo n\'umero lograble.} Un n\'umero $x$ es llamado lograble si puede volverse igual a $\text{num}$ despu\'es de aplicar la siguiente operaci\'on no m\'as de $t$ veces:
+\begin{center}
+	Incrementar o decrementar $x$ por $1$, y simult\'aneamente incrementar o decrementar $\text{num}$ por $1$.\\
+\end{center}
+
+Regresa el n\'umero m\'aximo lograble. Se puede probar que existe al menos un n\'umero lograble.\\
+\Paragraph{Demostraci\'on. } Sea $\text{num}$, $t$ enteros, sea adem\'as $S$ el conjunto definido tal que 
+$$S = \{x \in \mathbb{Z}: |x - num| \leq 2|t|\}$$
+entonces, dado que $S$ es la bola cerrada de centro $\text{num}$ y radio $2t$, sabemos que $S$ es no vac\'io debido a que $\mathbb{Z}$ es no vac\'io y $\text{num} \in \mathbb{Z}$ esto nos lleva a concluir que, gracias al principio de buen orden, para $t = 0$, entonces $x = \text{num}$. Por lo tanto, $S = \{\text{num}\}.$ Con lo que queda demostrada la suposici\'on. Sin embargo, se pueden extraer resultados interesantes de esta tales como
+$$\begin{array}{c}
 
 \end{document}

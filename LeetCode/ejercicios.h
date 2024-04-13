@@ -17,23 +17,3 @@
  *La verdad sí es un ejercicio bastante fácil de matemáticas, sigamos, usemos esto para crear el programa que de el máximo de */
  int max_n_lograble(int num, int t);
 
-
-
- /*--------------------------------------------*/
-
-
-
- /* Ejercicio 2894 de LeetCode, segundo ejercicio que hago de esta plataforma:
-  *
-  * Diferencia de la suma de los numeros divisibles y no divisibles.
-  * Te dan dos enteros, n y m.
-  * Define dos enteros, num1 y num2 como sigue
-  * num1: La suma de todos los enteros en el rango (1, n) que no son divisibles para m,
-  * num2: La suma de todos los enteros en el rango (1,n) que son divisibles para m.
-  * Regrese el entero num1 - num2.
-  * Sean $n, m \in \mathbb{Z}^{+}$, definimos los conjuntos $S_{d}$ y $S_{nd}$ tales que
-  * $$S_{d} = \{x \in \mathbb{Z}: 1 \leq x \leq n\text{ y } x = mq, q \in \mathbb{Z}\}$$
-  * $$S_{nd} = \{x \in \mathbb{Z}: 1 \leq x \leq n\text{ y } x = mq +r/ q, r \in \mathbb{Z}: 0 < r \leq m\}$$*/
- int dif_sum_d_nd(int n, int m);
-
-#endif
